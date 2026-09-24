@@ -1,7 +1,4 @@
-#!/usr/bin/env python3
 """Task Tracker CLI
-
-Aplikasi command-line sederhana untuk mengelola tugas (task) yang disimpan dalam file JSON.
 
 Contoh penggunaan:
   python task_cli.py add "Beli bahan makanan"
@@ -146,7 +143,6 @@ def main():
     command = sys.argv[1]
     args = sys.argv[2:]
     
-    # Tetap gunakan perintah asli (bahasa inggris) untuk argument agar sesuai requirement awal
     if command == "add":
         description = " ".join(args).strip('"')
         cmd_add([description])
