@@ -1,0 +1,11 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Database file
+tasks.json
+
+# Cache
+__pycache__/
+*.pyc
